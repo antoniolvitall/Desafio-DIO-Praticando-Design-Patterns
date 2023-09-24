@@ -1,4 +1,4 @@
-package model;
+package cne.digitalinnovation.gof.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -97,13 +97,4 @@ public class Endereco {
     public void setSiafi(String siafi) {
         this.siafi = siafi;
     }
-
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
-
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
-    }
-
 }
